@@ -1,0 +1,61 @@
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 10px;
+}
+.container 
+{
+    grid-column: 1/16;
+  
+}
+.container > div
+{
+cursor: pointer;
+height: 200px;
+background-size: cover;
+background-position: fixed;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transition: all 0.5s ease-in;
+}
+.container > div:hover{
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+
+.bg-1
+{
+    background-image: url(https://th.bing.com/th/id/OIP.7u6miGf-0sAxeT2yVwdNewHaEk?w=265&h=180&c=7&r=0&o=5&pid=1.7);
+    }
+        .bg-2
+{
+    background-image: url(https://th.bing.com/th/id/OIP.UmgHL_4BeSmr5KHt0rtlPQHaFj?w=218&h=180&c=7&r=0&o=5&pid=1.7);
+}
+.bg-3
+{
+    background-image: url(https://th.bing.com/th/id/OIP.U1PoCrx5tfYkCU2IFB42jgHaE-?w=242&h=180&c=7&r=0&o=5&pid=1.7);
+}
+.bg-4
+{
+    background-image: url(https://th.bing.com/th?id=OIP.CnpxlKfRYlyOr4339cdDGgHaFA&o=6&pid=PersonalBing&w=40&h=40&c=7&r=0);
+}
+.bg-5
+{
+    background-image: url(https://th.bing.com/th/id/OIP.SU-u-lg6PXvTmzoU7LgvDgHaE8?w=243&h=180&c=7&r=0&o=5&pid=1.7);
+    }
+        .bg-6
+{
+    background-image: url(https://th.bing.com/th/id/OIP.G4pRYbHRXwOb9WmvwaVV3QHaE8?w=207&h=180&c=7&r=0&o=5&pid=1.7);
+}
+.bg-7
+{
+    background-image: url(https://th.bing.com/th/id/OIP.hkZIQs8eEnJjNaMCrHTY7wHaEW?w=287&h=180&c=7&r=0&o=5&pid=1.7);
+}
+.bg-8
+{
+    background-image: url(https://th.bing.com/th/id/OIP.1EZayI81GIC81e6ZaiEMiQHaE8?w=252&h=180&c=7&r=0&o=5&pid=1.7);
+}

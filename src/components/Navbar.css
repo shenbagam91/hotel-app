@@ -1,0 +1,29 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgreen;
+    color: navy;
+    padding:10px 0;
+}
+nav > h1
+{
+    font-size:30px;
+    color:white;
+    font-weight:500;
+}
+nav ul{
+    
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    align-items: center;
+  
+   
+}
+nav ul a{
+    font-size:20px;
+    font-weight:300;
+    color:navy;
+    text-decoration:none;
+}
